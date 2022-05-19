@@ -1,0 +1,76 @@
+body{
+    color:#2e2929;
+
+}
+body.dark {
+	background:#2e2929;
+    color: #fff;
+	background-image: url(../img/darkbackground.png);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%; 
+}
+body.dark .card{
+    background-color:#2e2929;
+    
+}
+body.dark .user-li {
+    background-color:#2e2929;
+    color: #fff;
+}
+body.dark .modal-content {
+    color: #fff;
+    background-color:#2e2929;
+}
+
+body.dark .profile ul::before{
+    background-color:#2e2929;
+    
+}
+body.dark .label {
+	background-color: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+ top: 3px;
+  right: 10px;
+	align-items: center;
+
+	padding: 5px;
+	position: relative;
+	height: 20px;
+	width: 30px;
+	transform: scale(1.5);
+}
+
+body.dark .label .ball {
+	background-color: #111;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 10px;
+	width: 10px;
+	transform: translateX(10px);
+	transition: transform 0.2s  linear;
+}
+
+body.dark .checkbox:checked + .label .ball  {
+	
+ 
+transform: translateX(10px);
+  
+}
+body.dark #preloader{
+	background: #2e2929   url(../img/ebd9a6_f5dd94ffc9e14189ba0c98feebe6738c_mv2.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 50%;
+    width:100% ;
+    position: fixed;
+    z-index:100 ;
+}
+
